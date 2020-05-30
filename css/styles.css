@@ -1,0 +1,181 @@
+body {
+    background: #FAFAFA;
+    font-family: 'Helvetica', sans-serif;
+    
+}
+.header-nav{
+    margin: 0 auto;
+}
+.instagram{
+width: 130px;
+height: 50px;
+}
+#search-input{
+    text-align: center;
+    padding-left: 39px;
+     width: 216px;
+     height: 29px;
+     font-size: 14px;
+    line-height: 17px;
+    background: #FAFAFA;
+    border: 1px solid #dee2e6;
+    box-sizing: border-box;
+    border-radius: 3px;
+
+}
+
+.form-inline{
+    position: relative;
+}
+.search-icon{
+    width: 9px;
+    height: 9px;
+    position: absolute;
+    margin-left: 78px;
+
+}
+
+li{
+  list-style-type: none;
+}
+
+.message{
+    position: absolute;
+    font-size: 12px;
+line-height: 14px;
+color: #FFFFFF;
+background: #DC565B;
+border-radius: 50%;
+padding: 1px 5px;
+right: 17%;
+    top: 23%;
+}
+.message-link{
+    position: relative;
+}
+
+
+
+#main-foto{
+    width: 154px;
+height: 153px;
+margin-top: 29px;
+}
+
+.posts{
+font-family: "Helvetica Neue";
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 21px;
+color: #262626;
+padding: 0px;
+margin-right: 10px;
+}
+
+.about{
+    margin-top: 35px;
+}
+.num{
+    padding-right: 4px;
+    font-weight: bolder;
+
+}
+.info{
+    
+    margin: 0 auto;
+
+
+
+}
+
+.follow{
+    font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+padding: 0px 26px;
+margin-right: 9px;
+
+}
+
+
+.follower{
+    margin-top: 21px;
+}
+h3{
+    margin-top: 21px;
+    font-family: "Helvetica Neue";
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 21px;
+color: #262626;
+}
+
+p{
+    font-family: "Helvetica Neue";
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 25px;
+color: #262626;
+margin-bottom: 0px;
+}
+
+.stories{
+    margin-top: 52px;
+}
+.stories-item{
+    padding-left: 0;
+    margin-right: 10px;
+}
+.stories-img{
+    border: 1px solid #DBDBDB;
+    padding: 2px;
+    border-radius: 50%;
+
+    
+}
+
+
+.st-name{
+    margin-top: 15px;
+    font-family: "Helvetica Neue";
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+color: #262626;
+text-align: center;
+}
+
+a{
+    cursor: pointer;
+}
+.container-second{
+    margin-top: 55px;
+}
+
+.nav-box{
+    border-top: 1px solid #DBDBDB; ;
+}
+.nav-txt{
+    font-family: "Helvetica Neue";
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+color: #262626;
+}
+.nav-txt.tagget{
+    color: #8F8F8F;
+}
+
+.posts-link{
+    border-top: 1px solid #262626;;
+}
+
+.foto-content{
+    margin-top: 25px;
+}
