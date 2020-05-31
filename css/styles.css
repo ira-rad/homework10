@@ -5,7 +5,9 @@ body {
 }
 .header-nav{
     margin: 0 auto;
+    max-width: 1210px;
 }
+
 .instagram{
 width: 130px;
 height: 50px;
@@ -35,10 +37,6 @@ height: 50px;
 
 }
 
-li{
-  list-style-type: none;
-}
-
 .message{
     position: absolute;
     font-size: 12px;
@@ -54,111 +52,100 @@ right: 17%;
     position: relative;
 }
 
-
-
-#main-foto{
+.main-photo{
     width: 154px;
 height: 153px;
 margin-top: 29px;
 }
 
-.posts{
-font-family: "Helvetica Neue";
-font-style: normal;
-font-weight: 500;
-font-size: 17px;
-line-height: 21px;
-color: #262626;
-padding: 0px;
-margin-right: 10px;
-}
-
-.about{
-    margin-top: 35px;
-}
-.num{
-    padding-right: 4px;
-    font-weight: bolder;
-
-}
-.info{
-    
-    margin: 0 auto;
-
-
-
+.about-user{
+    margin-top: 29px;
 }
 
 .follow{
-    font-weight: bold;
+font-weight: bold;
 font-size: 14px;
 line-height: 17px;
 color: #FFFFFF;
 padding: 0px 26px;
 margin-right: 9px;
+align-items: center;
+width: 97px;
+height: 29px;
 
 }
 
+.btn-dowm{
+    width: 33px;
+height: 29px;
+align-items: center;
 
-.follower{
-    margin-top: 21px;
-}
-h3{
-    margin-top: 21px;
-    font-family: "Helvetica Neue";
-font-style: normal;
-font-weight: bold;
-font-size: 17px;
-line-height: 21px;
-color: #262626;
 }
 
-p{
-    font-family: "Helvetica Neue";
-font-style: normal;
-font-weight: normal;
-font-size: 17px;
-line-height: 25px;
-color: #262626;
-margin-bottom: 0px;
-}
-
-.stories{
-    margin-top: 52px;
-}
-.stories-item{
-    padding-left: 0;
-    margin-right: 10px;
-}
-.stories-img{
-    border: 1px solid #DBDBDB;
-    padding: 2px;
-    border-radius: 50%;
-
+.btns{
+    display: flex;
+    flex-direction: row;
     
 }
 
+.user-name{
+    margin-right: 26px;
+    font-family: "Helvetica Neue";
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 32px;
+color: #262626;
+}
+.inf a{
+    font-family: "Helvetica Neue";
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 21px;
+color: #262626;
+margin-right: 39px;
+margin-top: 24px;
+
+}
+
+.about{
+    margin-left: -13px;
+}
+
+.name{
+    margin-top: 21px;
+    font-family: "Helvetica Neue";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    color: #262626;
+}
+
+.three-stories{
+    margin-left: 3px;
+}
+.stories-item{
+    margin-top: 56px;
+    margin-right: 42px;
+}
 
 .st-name{
     margin-top: 15px;
-    font-family: "Helvetica Neue";
+    margin-left: 20px;
+    
+font-family: 'Helvetica Neue';
 font-style: normal;
 font-weight: bold;
 font-size: 14px;
 line-height: 17px;
 color: #262626;
-text-align: center;
-}
-
-a{
-    cursor: pointer;
-}
-.container-second{
-    margin-top: 55px;
 }
 
 .nav-box{
-    border-top: 1px solid #DBDBDB; ;
+    border-top: 1px solid #DBDBDB; 
+    margin-top: 55px;
 }
 .nav-txt{
     font-family: "Helvetica Neue";
@@ -176,6 +163,69 @@ color: #262626;
     border-top: 1px solid #262626;;
 }
 
-.foto-content{
+.user-photos{
+    text-align: center;
+}
+
+.photo-content{
     margin-top: 25px;
 }
+@media(max-width: 430px){
+    .stories-item{
+        margin-right: 12px;
+
+    }
+    .about-user{
+        margin-left: 20px;
+    }
+    .inf a{
+       margin-right: 15px;
+   }
+   .btns {
+    display: flex;
+    flex-direction: column;
+}
+.navbar-brand{
+    margin: 0 auto;
+}
+.form-inline{
+    margin: 0 auto;
+}
+.nav-icon{
+    margin: 0 auto;
+}
+
+}
+
+@media(max-width: 760px){
+    .about-user{
+        margin-left: 20px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .inf{
+        justify-content: center;
+    }
+
+    .btns{
+        justify-content: center;
+    }
+    .stories{
+        justify-content: center;
+        margin-left: -14px;
+    }
+
+    .main-photo{
+        margin: 0 auto;
+        margin-top: 29px;
+    }
+    .header-nav{
+        flex-direction: column;
+    }
+    .nav-icon{
+        margin-top: 15px;
+    }
+}
+
+

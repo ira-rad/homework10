@@ -13,191 +13,184 @@
     <title>Bootstrap</title>
   </head>
   <body>
-    <header class="container-fluid header border-bottom">
-      <div class="container-lg navbar header-nav navbar-light bg-light">
-        <div class="col-md">
-          <img class="navbar-brand col-sm-4 instagram" src="./img/instagram.svg" alt="instagram-icon">
-        </div>
-        <div class="col-md"> 
-          <form class="col-sm-4 form-inline my-2 my-lg-0">
-            <img class="search-icon" src="./img/search.svg" alt="">
+    <header class="border-bottom">
+      <div class=" navbar navbar-light header-nav">
+        <a class="navbar-brand" href="#">
+          <img class="instagram" src="./img/instagram.svg" alt="instagram logo">
+        </a>
+
+        <a class="form-inline" href="#">
+          <img class="search-icon" src="./img/search.svg" alt="">
             <input class="form-control search" type="search" id="search-input" placeholder="Search" aria-label="Search" >
-         </form>
-        </div>
-        <div class="col-md">
-          <ul class="nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">
-                  <img class="home" src="./img/home.svg" alt="home icon">
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link message-link" href="#">
-                  <img src="./img/direct.svg" alt="direct icon">
-                  <div class="message">5</div>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                  <img src="./img/nav.png" alt="nav icon">
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                  <img src="./img/like.png" alt="like icon">
-              </a>
-            </li>
+        </a>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                  <img src="./img/blue-elipse.svg" alt="blue-elipse icon">
-              </a>
-          </ul>
-        </div>
-      </div>
+        <nav class="nav nav-icon">
+          <a class="nav-link" href="#" >
+            <img src="./img/home.svg" alt="">
+          </a>
+
+          <a class="nav-link message-link" href="#" >
+            <img src="./img/direct.svg" alt="direct icon">
+            <div class="message">5</div>
+          </a>
+
+          <a class="nav-link" href="#" >
+            <img src="./img/nav.png" alt="nav icon">
+          </a>
+
+          <a class="nav-link" href="#" >
+            <img src="./img/like.png" alt="like icon">
+          </a>
+
+          <a class="nav-link" href="#" >
+            <img src="./img/blue-elipse.svg" alt="blue-elipse icon">
+          </a>
+          
+        </nav>
     </header>
-    <div class="container container-lg container-first">
+
+
+
+    <div class="container">
+
+
       <div class="row">
-        <div class="col-md-4">
-          <img class="rounded mx-auto d-block" id="main-foto" src="./img/foto.svg" alt="">
+        <div class="col-md-3 offset-1">
+          <div class="main-photo">
+            <img src="./img/foto.svg" alt="">
+          </div>
         </div>
-        <div class="col-md-8 info">
-          <div class="row mt-4">
-            <div class="col-md-2">
-              <h2>name</h2>
-            </div>
-            <div class="col-4">
-              <div class="row">
-                <div class="col-4 d-flex">
-                  <button type="button" class="btn btn-primary btn-sm follow">Follow</button>
-                  <button class="btn btn-primary  dropdown-toggle btn-sm"></button>
-                  <button class="btn btn-light">•••</button> 
-                </div>
-              </div>
+
+        <div class="col-md-8 about-user">
+          <div class="row btns">
+            <h2 class="user-name">name</h2>
+            <div class="buttons">
+              <button type="button" class="btn btn-primary follow">Follow</button>
+              <button type="button" class="btn btn-primary  dropdown-toggle btn-dowm"></button>
+              <button type="button" class="btn btn-light">•••</button> 
             </div>
           </div>
 
-          <div class="row d-flex follower">
-            <div class="col-md-5">
-              <div class="btn-group" role="group" aria-label="Basic example">
-                <button type="button" class="btn btn-link btn-sm posts" role="group">
-                  <span class="num">79</span>posts
-                </button>
-                <button type="button" class="btn btn-link btn-sm posts">
-                  <span class="num">379</span>followers
-                </button>
-                <button type="button" class="btn btn-link btn-sm posts">
-                  <span class="num">179</span>following
-                </button>
-              </div>
-            </div>
+          <div class="row inf">
+            <a class="link" href="#"><b>79</b> posts</a>
+            <a class="link" href="#"><b>379</b> followers</a>
+            <a class="link" href="#"><b>179</b> following</a>
           </div>
-          <div class="row">
-            <div class="col-8">
-              <h3>Name</h3>
+
+          <div class="about">
+            <h3 class="name">Name</h3>
               <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
               <a href="#">bit.ly/35Ce3mX</a>
-            </div>
           </div>
         </div>
       </div>
-      <div class="row offset-1   stories container-lg">
-        <div class="col-1 stories-item mr-5">
-          <a href="#">
-            <img class="stories-img" src="./img/foto1.svg" alt="">
+
+      <div class="row stories offset-1 ">
+       <div class="row three-stories">
+          <div class="stories-item">
+            <a href="#">
+              <img class="stories-img" src="./img/foto1.svg" alt="">
+            </a>
+            <h4 class="st-name">Name</h4>
+            
+          </div>
+
+          <div class="stories-item">
+            <a href="#">
+              <img class="stories-img" src="./img/foto1.svg" alt="">
+            </a>
+            <h4 class="st-name">Name</h4>
+            
+          </div>
+
+          <div class="stories-item">
+            <a href="#">
+              <img class="stories-img" src="./img/foto1.svg" alt="">
+            </a>
+            <h4 class="st-name">Name</h4>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container container-lg">
+        <div class="nav nav-box justify-content-center">
+          
+          <a class="nav-item nav-link posts-link" href="#">
+            <img src="./img/posts.svg" alt="posts-icon">
+            <span class="nav-txt">POSTS</span> 
           </a>
-          <h4 class="st-name">Name</h4>
+          <a class="nav-item nav-link" href="#">
+            <img src="./img/tagget.svg" alt="tagget-icon">
+            <span class="nav-txt tagget">TAGGET</span>
+          </a>
+  
         </div>
-        <div class="col-1 stories-item mr-5">
-          <a href="">
-          <img class="stories-img" src="./img/foto1.svg" alt="">
-        </a>
-          <h4 class="st-name">Name</h4>
-        </div>
-        <div class="col-1 stories-item mr-5">
-          <a href="">
-          <img class="stories-img" src="./img/foto1.svg" alt="">
-        </a>
-          <h4 class="st-name">Name</h4>
-        </div>
-      </div>
-    </div>
-    <div class="container container-lg container-second">
-      <div class="nav nav-box justify-content-center">
+        <div class="row user-photos">
+          <div class="col-md-4 photo-content">
+            <img class="img-fluid roundet" src="./img/foto-content.svg" alt="foto">
+          </div>
+          <div class="col-md-4 photo-content">
+            <img class="img-fluid roundet" src="./img/foto-content.svg" alt="foto">
+          </div>
+          <div class="col-md-4 photo-content">
+            <img class="img-fluid roundet" src="./img/foto-content.svg" alt="foto">
+          </div>
+          <div class="col-md-4 photo-content">
+            <img class="img-fluid roundet" src="./img/foto-content.svg" alt="foto">
+          </div>
+          <div class="col-md-4 photo-content">
+            <img class="img-fluid roundet" src="./img/foto-content.svg" alt="foto">
+          </div>
+          <div class="col-md-4 photo-content">
+            <img class="img-fluid roundet" src="./img/foto-content.svg" alt="foto">
+          </div>
+          <div class="col-md-4 photo-content">
+            <img class="img-fluid roundet" src="./img/foto-content.svg" alt="foto">
+          </div>
+          <div class="col-md-4 photo-content">
+            <img class="img-fluid roundet" src="./img/foto-content.svg" alt="foto">
+          </div>
+          <div class="col-md-4 photo-content">
+            <img class="img-fluid roundet" src="./img/foto-content.svg" alt="foto">
+          </div>
+          <div class="col-md-4 photo-content">
+            <img class="img-fluid roundet" src="./img/foto-content.svg" alt="foto">
+          </div>
+          <div class="col-md-4 photo-content">
+            <img class="img-fluid roundet" src="./img/foto-content.svg" alt="foto">
+          </div>
+          <div class="col-md-4 photo-content">
+            <img class="img-fluid roundet" src="./img/foto-content.svg" alt="foto">
+          </div>
+          <div class="col-md-4 photo-content">
+            <img class="img-fluid roundet" src="./img/foto-content.svg" alt="foto">
+          </div>
+          <div class="col-md-4 photo-content">
+            <img class="img-fluid roundet" src="./img/foto-content.svg" alt="foto">
+          </div>
+          <div class="col-md-4 photo-content">
+            <img class="img-fluid roundet" src="./img/foto-content.svg" alt="foto">
+          </div>
+
+
+
+       </div>
+       
         
-        <a class="nav-item nav-link posts-link" href="#">
-          <img src="./img/posts.svg" alt="posts-icon">
-          <span class="nav-txt">POSTS</span> 
-        </a>
-        <a class="nav-item nav-link" href="#">
-          <img src="./img/tagget.svg" alt="tagget-icon">
-          <span class="nav-txt tagget">TAGGET</span>
-        </a>
-
-      </div>
-      <div class="container-lg">
-        <div class="row">
-          <div class="col-md-4 foto-content">
-            <img class="img-fluid roundet" src="./img/foto-content.svg" alt="foto">
-          </div>
-          <div class="col-md-4 foto-content">
-            <img  class="img-fluid roundet" src="./img/foto-content.svg" alt="foto">
-          </div>
-          <div class="col-md-4 foto-content">
-            <img class="img-fluid roundet" src="./img/foto-content.svg" alt="foto">
-          </div>
-          <div class="col-md-4 foto-content">
-            <img class="img-fluid roundet" src="./img/foto-content.svg" alt="foto">
-          </div>
-          <div class="col-md-4 foto-content">
-            <img  class="img-fluid roundet" src="./img/foto-content.svg" alt="foto">
-          </div>
-          <div class="col-md-4 foto-content">
-            <img class="img-fluid roundet" src="./img/foto-content.svg" alt="foto">
-          </div>
-          <div class="col-md-4 foto-content">
-            <img class="img-fluid roundet" src="./img/foto-content.svg" alt="foto">
-          </div>
-          <div class="col-md-4 foto-content">
-            <img  class="img-fluid roundet" src="./img/foto-content.svg" alt="foto">
-          </div>
-          <div class="col-md-4 foto-content">
-            <img class="img-fluid roundet" src="./img/foto-content.svg" alt="foto">
-          </div>
-          <div class="col-md-4 foto-content">
-            <img class="img-fluid roundet" src="./img/foto-content.svg" alt="foto">
-          </div>
-          <div class="col-md-4 foto-content">
-            <img  class="img-fluid roundet" src="./img/foto-content.svg" alt="foto">
-          </div>
-          <div class="col-md-4 foto-content">
-            <img class="img-fluid roundet" src="./img/foto-content.svg" alt="foto">
-          </div>
-          <div class="col-md-4 foto-content">
-            <img class="img-fluid roundet" src="./img/foto-content.svg" alt="foto">
-          </div>
-          <div class="col-md-4 foto-content">
-            <img  class="img-fluid roundet" src="./img/foto-content.svg" alt="foto">
-          </div>
-          <div class="col-md-4 foto-content">
-            <img class="img-fluid roundet" src="./img/foto-content.svg" alt="foto">
-          </div>
-        </div>
-
-        
-
-        
-
-        
+    
+       </div>
+    
 
 
-        
 
-        
+
+
+
       </div>
 
 
     </div>
+
 
 
     <!-- Optional JavaScript -->
